@@ -3,7 +3,7 @@
 
 a = ''
 10.times do |i|
-	
+	(i+1).even? ? (a += (i+1).to_s+'par ') : (a += (i+1).to_s+'impar ')
 end
 
 puts a
